@@ -1,0 +1,31 @@
+#define MANIFEST 24
+#define IDR_VERSION 1
+#define IDR_XPMANIFEST 1
+
+LANGUAGE 4,2
+
+IDR_VERSION VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 4,1,20,430
+FILEOS 0x00000004
+FILETYPE 0x00000002
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "08040000"
+    BEGIN
+      VALUE "FileDescription", "ExDirectUI Library 4\0"
+      VALUE "LegalCopyright", "Copyright (c) YHan\0"
+      VALUE "OriginalFilename", "libexdui.dll\0"
+      VALUE "ProductName", "ExDirectUI Library 4\0"
+      VALUE "ProductVersion", "4.1.20.430\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0804, 0x0000
+  END
+END
+
+IDR_XPMANIFEST MANIFEST "xpmanifest.xml"
+

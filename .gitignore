@@ -1,0 +1,9 @@
+Release/
+Bak/
+Theme/
+
+*.bak
+*.dll
+libexdui.dll
+libexdui.h
+libexdui.lib
